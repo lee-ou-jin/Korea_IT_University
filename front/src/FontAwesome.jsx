@@ -13,8 +13,5 @@ import { faX } from "@fortawesome/free-solid-svg-icons";
 import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
 import { faArrowTurnDown } from "@fortawesome/free-solid-svg-icons";
 
-
 // 사용할 아이콘을 라이브러리에 추가
-library.add(faPlus, faUser, faMedal, faCompass, faHome, 
-    faArrowLeft, faMagnifyingGlass, faThumbsUp, faComment,
-    faX, faEllipsisVertical, faArrowTurnDown );
+library.add(faPlus, faUser, faMedal, faCompass, faHome, faArrowLeft, faMagnifyingGlass, faThumbsUp, faComment, faX, faEllipsisVertical, faArrowTurnDown);
