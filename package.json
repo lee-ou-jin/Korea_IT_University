@@ -1,0 +1,28 @@
+{
+  "name": "hanta",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd server && nodemon\" \"cd front && npm start\"",
+    "install": "concurrently \"cd server && npm i\" \"cd front && npm i\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-ou-jin/Hanta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lee-ou-jin/Hanta/issues"
+  },
+  "homepage": "https://github.com/lee-ou-jin/Hanta#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-notifications": "^1.7.4",
+    "recoil": "^0.7.6"
+  }
+}

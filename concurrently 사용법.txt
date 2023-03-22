@@ -1,0 +1,23 @@
+1. \Hanta> npm i concurrently 
+	명령어 동시 실행 패키지 설치
+
+1-1. package.json의 "scripts" key에 또 다른 object를 작성할 수 있는데 여기에 명령어를 추가할 수 있다.
+예시_)
+"scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+이런 경우에는 \Hanta> npm test  라는 명령어가 가능한 것이며, 
+그 결과로 값에 해당하는 코드인 "echo \ ..." 가 실행된다.
+
+2. 설치한 concurrently라는 패키지는 위 예시에 추가 기능을 더해줘서 명령어 동시 실행을 가능하게 해준다.
+		"start": "concurrently \"cd server && nodemon\" \"cd front && npm start\"",
+    	"install": "concurrently \"cd server && npm i\" \"cd front && npm i\""
+	
+	문법:	start, install 의 값인 " ... " 안에 \"...\"가 2개(cd ... 명령어부분) 들어있는걸 볼 수 있는데
+			\" \"를 통해 각 명령어의 단위를 끊어주면 된다. 
+			\" \"안에서 실행할 명령어는 &&으로 구분하여 순차실행 시킬 수 있다.
+
+3. 주의사항
+	폴더를 나누지않으면 install 때 문제가 생기는 것으로 보인다.
+	때문에 server부분은 폴더로 옮기고 폴더 바깥쪽을 npm init으로 프로젝트화한 뒤,
+	패키지는 concurrently만 사용하는 상태로 만들었다.

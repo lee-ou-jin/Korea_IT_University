@@ -1,0 +1,7 @@
+home => boardlist(list(count)) =>detailpost(detail(comment))
+홈 =>  (종류)게시판  => 상세게시물
+
+
+상세게시물에 Map으로 댓글 컴포넌트
+댓글 컴포넌트에 map으로 대댓글
+dd

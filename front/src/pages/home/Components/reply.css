@@ -1,0 +1,13 @@
+.reply{
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 5px;
+};
+
+.reply_reply{
+    border: 1px solid gray
+};

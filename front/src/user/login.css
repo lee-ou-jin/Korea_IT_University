@@ -1,0 +1,53 @@
+.loginy {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.input{
+    border: none;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sibar {
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gray;
+    background-color: lightgray;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.sibar:hover {
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    background-color: gray;
+}
+
+
+.alternativeLogin {
+    text-align: center;
+    padding-top: 5px;
+}

@@ -1,0 +1,26 @@
+div {
+    box-sizing: border-box;
+}
+
+.list {
+    text-align: left;
+    border-bottom: 1px solid grey;
+    text-decoration: none;
+}
+
+.sibal {
+    float: right;
+    font-size: 20px;
+}
+
+.fuck {
+    border: 1px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.letter {
+    font-size: 20px;
+}

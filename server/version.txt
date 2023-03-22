@@ -1,0 +1,2 @@
+version1
+json연결작업중 서버에 임시api주소설정해둠

@@ -1,0 +1,40 @@
+.cardo {
+    width: 350px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.tittle {
+    padding-right: 230px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 22px;
+    float: left;
+}
+
+.licensebutton {
+    border-radius: 10px;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: lightslategray;
+    border: none;
+    color: white;
+}
+
+.licensebutton:hover {
+    border-radius: 10px;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: slategray;
+    border: none;
+    color: white;
+}
